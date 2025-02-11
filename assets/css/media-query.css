@@ -1,0 +1,13 @@
+/*Mobile*/
+@media screen and (max-width: 500px) {
+    
+    .s-cards-carousel {
+        display: flex;
+        justify-content: center;
+        width: calc(50vw / 1 - 15%);
+        transform-style: preserve-3d ;
+        transition: transform 0.4s ease-in;
+      }
+
+   
+}
