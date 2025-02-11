@@ -1,6 +1,10 @@
 /*Mobile*/
 @media screen and (max-width: 500px) {
 
+    .s-menu ul li a {
+        font-size: 14px;
+    }
+
     .s-cards-carousel {
         display: flex;
         justify-content: center;
