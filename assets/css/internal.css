@@ -4,6 +4,7 @@
 @import url('components/_pills.css');
 @import url('components/_link-button.css');
 @import url('components/_gallery.css');
+@import url('media-query.css');
 
 .s-wrapper {
   display: flex;
