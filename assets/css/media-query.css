@@ -90,3 +90,45 @@
     }
 
 }
+
+/*small tabletes*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .s-logo img {
+        width: 80%;
+    }
+
+    .s-description {
+        display: none;
+    }
+
+    .gallery  ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery  img {
+        width: 400px;
+        height: 170px;
+    }
+}
+
+/*large tabletes/laptops*/
+@media screen and (min-width: 991px) and (max-width: 1300px) {
+    .s-logo img {
+        width: 80%;
+    }
+
+    .s-description {
+        display: none;
+    }
+
+    .gallery  ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery  img {
+        width: 400px;
+        height: 170px;
+    }
+}
